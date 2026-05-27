@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: chatbotict-backend
+    env: python
+    buildCommand: pip install -r chatbot_back/requirements.txt
+    startCommand: uvicorn chatbot_back.main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_KEY
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
