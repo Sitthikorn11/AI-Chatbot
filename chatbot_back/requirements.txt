@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+supabase
+bcrypt
+PyJWT
+pydantic
+requests
+google-genai
+google-auth

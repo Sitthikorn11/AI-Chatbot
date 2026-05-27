@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+google-generativeai
+supabase
+bcrypt
+PyJWT
+pydantic
+requests
+streamlit
+pandas
+plotly
+google-genai

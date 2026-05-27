@@ -1,0 +1,9 @@
+.env
+.env.local
+.env.*.local
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+chatbot_fron/node_modules/
+chatbot_fron/dist/
